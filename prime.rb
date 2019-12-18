@@ -12,6 +12,7 @@ def prime?(integer)
   end
 end
 =end
+=begin
 def prime?(integer)
   if integer <= 1
     return false
@@ -23,3 +24,4 @@ def prime?(integer)
   end
   true
 end
+=end
