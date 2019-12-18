@@ -25,3 +25,17 @@ def prime?(integer)
   true
 end
 =end
+
+def prime?(integer)
+  if integer <= 1 
+    return false
+  end
+  counter = 2 
+  while counter < integer
+    if integer % counter == 0
+      return false
+    end
+    n += 1
+  end
+  true
+end 
