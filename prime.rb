@@ -12,19 +12,6 @@ def prime?(integer)
   end
 end
 =end
-=begin
-def prime?(integer)
-  if integer <= 1
-    return false
-  end
-  counter = 2
-  while counter < integer
-    return false if integer % counter == 0
-    counter += 1
-  end
-  true
-end
-=end
 
 def prime?(integer)
   if integer <= 1
