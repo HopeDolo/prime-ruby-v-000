@@ -35,7 +35,7 @@ def prime?(integer)
     if integer % counter == 0
       return false
     end
-    n += 1
+    counter += 1
   end
   true
-end 
+end
